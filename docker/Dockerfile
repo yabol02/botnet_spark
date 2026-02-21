@@ -1,11 +1,11 @@
-# Base image
 FROM ubuntu:22.04
 
-# Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 
-# Install dependencies
+# PYTHONPATH correcto (sin warning)
+ENV PYTHONPATH=/app
+
 RUN apt-get update && apt-get install -y \
     openjdk-11-jdk \
     wget \
@@ -13,23 +13,21 @@ RUN apt-get update && apt-get install -y \
     curl && \
     apt-get clean
 
-# Install Kafka
-WORKDIR /opt
+WORKDIR /app
 
-# Uprade pip and install dependencies
 RUN pip3 install --upgrade pip
-COPY requirements.txt /requirements.txt
-RUN pip3 install -r /requirements.txt
 
-# Expose ports
+COPY docker/requirements.txt .
+RUN pip3 install -r requirements.txt
+
+# ✅ ahora sí existe
+COPY functions ./functions
+
 EXPOSE 8888
 
-RUN ls
+COPY docker/entrypoint.sh /entrypoint.sh
 
-# Add entrypoint script
-COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 RUN sed -i 's/\r$//' /entrypoint.sh
 
-# Default command
 CMD ["/entrypoint.sh"]
