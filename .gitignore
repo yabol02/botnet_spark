@@ -218,3 +218,4 @@ __marimo__/
 *.csv
 docker_data/
 notas.txt
+*.code-workspace

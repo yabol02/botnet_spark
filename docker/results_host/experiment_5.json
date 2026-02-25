@@ -1,0 +1,290 @@
+[
+    {
+        "read_time": 0.022001028060913086,
+        "repartition_time": 0,
+        "normalize_time": 34.15796232223511,
+        "train_time": 405.7666211128235,
+        "acc_calc_time": 9.468997955322266,
+        "total_time": 449.4155824184418,
+        "nodes": 1
+    },
+    {
+        "read_time": 0.009666919708251953,
+        "repartition_time": 0,
+        "normalize_time": 19.260850429534912,
+        "train_time": 245.7368562221527,
+        "acc_calc_time": 5.622877359390259,
+        "total_time": 270.63025093078613,
+        "nodes": 2
+    },
+    {
+        "read_time": 0.011826038360595703,
+        "repartition_time": 0,
+        "normalize_time": 15.587289094924927,
+        "train_time": 193.62066555023193,
+        "acc_calc_time": 4.563708066940308,
+        "total_time": 213.78348875045776,
+        "nodes": 3
+    },
+    {
+        "read_time": 0.011092185974121094,
+        "repartition_time": 0,
+        "normalize_time": 13.806471824645996,
+        "train_time": 171.67264890670776,
+        "acc_calc_time": 4.024739503860474,
+        "total_time": 189.51495242118835,
+        "nodes": 4
+    },
+    {
+        "read_time": 0.01307821273803711,
+        "repartition_time": 0,
+        "normalize_time": 13.735690832138062,
+        "train_time": 171.3952193260193,
+        "acc_calc_time": 3.976902961730957,
+        "total_time": 189.12089133262634,
+        "nodes": 5
+    },
+    {
+        "read_time": 0.009661674499511719,
+        "repartition_time": 0,
+        "normalize_time": 14.334912300109863,
+        "train_time": 182.01349425315857,
+        "acc_calc_time": 4.32858943939209,
+        "total_time": 200.68665766716003,
+        "nodes": 6
+    },
+    {
+        "read_time": 0.010036468505859375,
+        "repartition_time": 0,
+        "normalize_time": 15.299362182617188,
+        "train_time": 189.52996706962585,
+        "acc_calc_time": 4.392444849014282,
+        "total_time": 209.23181056976318,
+        "nodes": 7
+    },
+    {
+        "read_time": 0.00932621955871582,
+        "repartition_time": 0,
+        "normalize_time": 14.56008529663086,
+        "train_time": 185.575421333313,
+        "acc_calc_time": 4.364258289337158,
+        "total_time": 204.50909113883972,
+        "nodes": 8
+    },
+    {
+        "read_time": 0.009266376495361328,
+        "repartition_time": 0,
+        "normalize_time": 13.789079666137695,
+        "train_time": 180.03322339057922,
+        "acc_calc_time": 4.250055551528931,
+        "total_time": 198.0816249847412,
+        "nodes": 9
+    },
+    {
+        "read_time": 0.009529829025268555,
+        "repartition_time": 0,
+        "normalize_time": 14.034798383712769,
+        "train_time": 181.20318055152893,
+        "acc_calc_time": 4.214574813842773,
+        "total_time": 199.46208357810974,
+        "nodes": 10
+    },
+    {
+        "read_time": 0.00988459587097168,
+        "repartition_time": 0,
+        "normalize_time": 13.92457914352417,
+        "train_time": 180.3161506652832,
+        "acc_calc_time": 4.19520378112793,
+        "total_time": 198.44581818580627,
+        "nodes": 11
+    },
+    {
+        "read_time": 0.01120448112487793,
+        "repartition_time": 0,
+        "normalize_time": 14.001100540161133,
+        "train_time": 183.31456303596497,
+        "acc_calc_time": 4.30185341835022,
+        "total_time": 201.6287214756012,
+        "nodes": 12
+    },
+    {
+        "read_time": 0.011125802993774414,
+        "repartition_time": 0,
+        "normalize_time": 14.016196727752686,
+        "train_time": 179.01859521865845,
+        "acc_calc_time": 4.229054689407349,
+        "total_time": 197.27497243881226,
+        "nodes": 13
+    },
+    {
+        "read_time": 0.009902715682983398,
+        "repartition_time": 0,
+        "normalize_time": 13.988139152526855,
+        "train_time": 189.28863382339478,
+        "acc_calc_time": 4.699616432189941,
+        "total_time": 207.98629212379456,
+        "nodes": 14
+    },
+    {
+        "read_time": 0.010939359664916992,
+        "repartition_time": 0,
+        "normalize_time": 15.824450969696045,
+        "train_time": 182.70917677879333,
+        "acc_calc_time": 4.235222578048706,
+        "total_time": 202.779789686203,
+        "nodes": 15
+    },
+    {
+        "read_time": 0.010321617126464844,
+        "repartition_time": 0,
+        "normalize_time": 13.920445442199707,
+        "train_time": 178.75421714782715,
+        "acc_calc_time": 4.250325441360474,
+        "total_time": 196.9353096485138,
+        "nodes": 16
+    },
+    {
+        "read_time": 0.012596368789672852,
+        "repartition_time": 0,
+        "normalize_time": 13.946259498596191,
+        "train_time": 182.41720414161682,
+        "acc_calc_time": 4.248128175735474,
+        "total_time": 200.62418818473816,
+        "nodes": 17
+    },
+    {
+        "read_time": 0.010722160339355469,
+        "repartition_time": 0,
+        "normalize_time": 14.02652621269226,
+        "train_time": 181.18236017227173,
+        "acc_calc_time": 4.266210317611694,
+        "total_time": 199.48581886291504,
+        "nodes": 18
+    },
+    {
+        "read_time": 0.009703874588012695,
+        "repartition_time": 0,
+        "normalize_time": 13.964836120605469,
+        "train_time": 182.16745805740356,
+        "acc_calc_time": 4.262213945388794,
+        "total_time": 200.40421199798584,
+        "nodes": 19
+    },
+    {
+        "read_time": 0.011163473129272461,
+        "repartition_time": 0,
+        "normalize_time": 13.90750789642334,
+        "train_time": 181.72011828422546,
+        "acc_calc_time": 4.1760900020599365,
+        "total_time": 199.814879655838,
+        "nodes": 20
+    },
+    {
+        "read_time": 0.014197349548339844,
+        "repartition_time": 0,
+        "normalize_time": 13.971700668334961,
+        "train_time": 178.96607995033264,
+        "acc_calc_time": 4.201550006866455,
+        "total_time": 197.1535279750824,
+        "nodes": 21
+    },
+    {
+        "read_time": 0.009548425674438477,
+        "repartition_time": 0,
+        "normalize_time": 13.948773622512817,
+        "train_time": 178.9631748199463,
+        "acc_calc_time": 4.178951263427734,
+        "total_time": 197.10044813156128,
+        "nodes": 22
+    },
+    {
+        "read_time": 0.009349346160888672,
+        "repartition_time": 0,
+        "normalize_time": 14.04706883430481,
+        "train_time": 180.03020453453064,
+        "acc_calc_time": 4.176087379455566,
+        "total_time": 198.2627100944519,
+        "nodes": 23
+    },
+    {
+        "read_time": 0.009371519088745117,
+        "repartition_time": 0,
+        "normalize_time": 14.121119260787964,
+        "train_time": 182.106627702713,
+        "acc_calc_time": 4.210819959640503,
+        "total_time": 200.44793844223022,
+        "nodes": 24
+    },
+    {
+        "read_time": 0.009936332702636719,
+        "repartition_time": 0,
+        "normalize_time": 14.0718994140625,
+        "train_time": 178.52579641342163,
+        "acc_calc_time": 4.151895523071289,
+        "total_time": 196.75952768325806,
+        "nodes": 25
+    },
+    {
+        "read_time": 0.010222911834716797,
+        "repartition_time": 0,
+        "normalize_time": 13.971086263656616,
+        "train_time": 177.89581418037415,
+        "acc_calc_time": 4.221133708953857,
+        "total_time": 196.09825706481934,
+        "nodes": 26
+    },
+    {
+        "read_time": 0.009965181350708008,
+        "repartition_time": 0,
+        "normalize_time": 14.028175830841064,
+        "train_time": 180.96819019317627,
+        "acc_calc_time": 4.148801326751709,
+        "total_time": 199.15513253211975,
+        "nodes": 27
+    },
+    {
+        "read_time": 0.010036945343017578,
+        "repartition_time": 0,
+        "normalize_time": 14.097209692001343,
+        "train_time": 186.21543788909912,
+        "acc_calc_time": 4.309492349624634,
+        "total_time": 204.63217687606812,
+        "nodes": 28
+    },
+    {
+        "read_time": 0.00966191291809082,
+        "repartition_time": 0,
+        "normalize_time": 14.096280574798584,
+        "train_time": 183.71591663360596,
+        "acc_calc_time": 4.197682857513428,
+        "total_time": 202.01954197883606,
+        "nodes": 29
+    },
+    {
+        "read_time": 0.010673046112060547,
+        "repartition_time": 0,
+        "normalize_time": 14.077466011047363,
+        "train_time": 179.5496370792389,
+        "acc_calc_time": 4.130728006362915,
+        "total_time": 197.76850414276123,
+        "nodes": 30
+    },
+    {
+        "read_time": 0.0101470947265625,
+        "repartition_time": 0,
+        "normalize_time": 14.056481838226318,
+        "train_time": 181.70069646835327,
+        "acc_calc_time": 4.189873456954956,
+        "total_time": 199.9571988582611,
+        "nodes": 31
+    },
+    {
+        "read_time": 0.010471343994140625,
+        "repartition_time": 0,
+        "normalize_time": 13.995115995407104,
+        "train_time": 179.31489944458008,
+        "acc_calc_time": 4.201548337936401,
+        "total_time": 197.52203512191772,
+        "nodes": 32
+    }
+]

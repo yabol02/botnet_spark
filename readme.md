@@ -3,7 +3,7 @@
 sudo docker build -f docker/Dockerfile -t spark-jupyter .
 
 # 2. Crear el contenedor con la nueva ruta de volumen
-sudo docker run -d --name spark-jupyter -p 8888:8888 -v "$PWD/docker/docker_volumen":/app/local spark-jupyter
+sudo docker run -d --name spark-jupyter -p 8888:8888 -v "$(pwd)/docker/docker_volumen:/app/data" -v "$(pwd)/docker/results_host:/app/results" spark-jupyter
 # - Alternativamente en windows (power shell):
 docker run -d --name spark-jupyter -p 8888:8888 -v "${PWD}/docker/docker_volumen:/app/data" -v "${PWD}/docker/results_host:/app/results" spark-jupyter
 

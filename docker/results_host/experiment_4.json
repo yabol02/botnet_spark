@@ -1,0 +1,290 @@
+[
+    {
+        "read_time": 0.7698707580566406,
+        "repartition_time": 8.416632890701294,
+        "normalize_time": 19.095187425613403,
+        "train_time": 525.2271234989166,
+        "acc_calc_time": 12.408176898956299,
+        "total_time": 565.9169914722443,
+        "partitions": 1
+    },
+    {
+        "read_time": 0.03763246536254883,
+        "repartition_time": 6.185769319534302,
+        "normalize_time": 11.708154439926147,
+        "train_time": 313.7169988155365,
+        "acc_calc_time": 7.714228630065918,
+        "total_time": 339.3627836704254,
+        "partitions": 2
+    },
+    {
+        "read_time": 0.031238794326782227,
+        "repartition_time": 5.890549421310425,
+        "normalize_time": 9.413437604904175,
+        "train_time": 250.69016027450562,
+        "acc_calc_time": 5.840321779251099,
+        "total_time": 271.8657078742981,
+        "partitions": 3
+    },
+    {
+        "read_time": 0.03608870506286621,
+        "repartition_time": 5.84993052482605,
+        "normalize_time": 8.281589984893799,
+        "train_time": 217.97598600387573,
+        "acc_calc_time": 5.1145102977752686,
+        "total_time": 237.25810551643372,
+        "partitions": 4
+    },
+    {
+        "read_time": 0.020671367645263672,
+        "repartition_time": 5.832996845245361,
+        "normalize_time": 8.786375999450684,
+        "train_time": 213.54527616500854,
+        "acc_calc_time": 5.082480192184448,
+        "total_time": 233.2678005695343,
+        "partitions": 5
+    },
+    {
+        "read_time": 0.014779090881347656,
+        "repartition_time": 5.13176417350769,
+        "normalize_time": 7.875908374786377,
+        "train_time": 207.41386914253235,
+        "acc_calc_time": 4.931978464126587,
+        "total_time": 225.36829924583435,
+        "partitions": 6
+    },
+    {
+        "read_time": 0.015224695205688477,
+        "repartition_time": 5.25318717956543,
+        "normalize_time": 7.988338470458984,
+        "train_time": 206.30371260643005,
+        "acc_calc_time": 4.9500346183776855,
+        "total_time": 224.51049757003784,
+        "partitions": 7
+    },
+    {
+        "read_time": 0.016728878021240234,
+        "repartition_time": 5.207388877868652,
+        "normalize_time": 8.23128056526184,
+        "train_time": 213.3474941253662,
+        "acc_calc_time": 4.954262018203735,
+        "total_time": 231.75715446472168,
+        "partitions": 8
+    },
+    {
+        "read_time": 0.01726675033569336,
+        "repartition_time": 5.510791778564453,
+        "normalize_time": 8.576636791229248,
+        "train_time": 201.6708915233612,
+        "acc_calc_time": 4.7756171226501465,
+        "total_time": 220.55120396614075,
+        "partitions": 9
+    },
+    {
+        "read_time": 0.01030874252319336,
+        "repartition_time": 4.2335474491119385,
+        "normalize_time": 7.311224937438965,
+        "train_time": 193.8714497089386,
+        "acc_calc_time": 4.5540711879730225,
+        "total_time": 209.98060202598572,
+        "partitions": 10
+    },
+    {
+        "read_time": 0.01421499252319336,
+        "repartition_time": 4.267865896224976,
+        "normalize_time": 7.2737603187561035,
+        "train_time": 192.25886058807373,
+        "acc_calc_time": 4.593432188034058,
+        "total_time": 208.40813398361206,
+        "partitions": 11
+    },
+    {
+        "read_time": 0.010106325149536133,
+        "repartition_time": 4.3330488204956055,
+        "normalize_time": 6.944916009902954,
+        "train_time": 181.92671155929565,
+        "acc_calc_time": 4.262524127960205,
+        "total_time": 197.47730684280396,
+        "partitions": 12
+    },
+    {
+        "read_time": 0.019250154495239258,
+        "repartition_time": 4.428144216537476,
+        "normalize_time": 7.461787939071655,
+        "train_time": 188.32407069206238,
+        "acc_calc_time": 4.430556535720825,
+        "total_time": 204.66380953788757,
+        "partitions": 13
+    },
+    {
+        "read_time": 0.010287046432495117,
+        "repartition_time": 4.396555662155151,
+        "normalize_time": 7.280324697494507,
+        "train_time": 198.11800861358643,
+        "acc_calc_time": 4.41836953163147,
+        "total_time": 214.22354555130005,
+        "partitions": 14
+    },
+    {
+        "read_time": 0.012154102325439453,
+        "repartition_time": 4.4939024448394775,
+        "normalize_time": 7.672550201416016,
+        "train_time": 191.54391980171204,
+        "acc_calc_time": 4.418447971343994,
+        "total_time": 208.14097452163696,
+        "partitions": 15
+    },
+    {
+        "read_time": 0.012257099151611328,
+        "repartition_time": 4.512408256530762,
+        "normalize_time": 7.592856168746948,
+        "train_time": 190.78155374526978,
+        "acc_calc_time": 4.36331844329834,
+        "total_time": 207.26239371299744,
+        "partitions": 16
+    },
+    {
+        "read_time": 0.012824535369873047,
+        "repartition_time": 4.559324502944946,
+        "normalize_time": 8.373377323150635,
+        "train_time": 203.95948553085327,
+        "acc_calc_time": 4.743469476699829,
+        "total_time": 221.64848136901855,
+        "partitions": 17
+    },
+    {
+        "read_time": 0.011604547500610352,
+        "repartition_time": 4.525307893753052,
+        "normalize_time": 8.227470874786377,
+        "train_time": 197.46102809906006,
+        "acc_calc_time": 4.611242294311523,
+        "total_time": 214.83665370941162,
+        "partitions": 18
+    },
+    {
+        "read_time": 0.01141500473022461,
+        "repartition_time": 4.57573127746582,
+        "normalize_time": 8.192483901977539,
+        "train_time": 193.11637163162231,
+        "acc_calc_time": 4.5321409702301025,
+        "total_time": 210.428142786026,
+        "partitions": 19
+    },
+    {
+        "read_time": 0.011289119720458984,
+        "repartition_time": 4.573108911514282,
+        "normalize_time": 8.156048059463501,
+        "train_time": 192.51704359054565,
+        "acc_calc_time": 4.492419719696045,
+        "total_time": 209.74990940093994,
+        "partitions": 20
+    },
+    {
+        "read_time": 0.01047372817993164,
+        "repartition_time": 4.681684255599976,
+        "normalize_time": 9.218141078948975,
+        "train_time": 202.42416834831238,
+        "acc_calc_time": 4.769969701766968,
+        "total_time": 221.10443711280823,
+        "partitions": 21
+    },
+    {
+        "read_time": 0.01179051399230957,
+        "repartition_time": 4.683303117752075,
+        "normalize_time": 8.507224559783936,
+        "train_time": 192.80483722686768,
+        "acc_calc_time": 4.500798225402832,
+        "total_time": 210.50795364379883,
+        "partitions": 22
+    },
+    {
+        "read_time": 0.011390924453735352,
+        "repartition_time": 4.723466396331787,
+        "normalize_time": 8.576192617416382,
+        "train_time": 200.40585589408875,
+        "acc_calc_time": 4.7363526821136475,
+        "total_time": 218.4532585144043,
+        "partitions": 23
+    },
+    {
+        "read_time": 0.011571168899536133,
+        "repartition_time": 4.744434118270874,
+        "normalize_time": 8.603629350662231,
+        "train_time": 198.68144750595093,
+        "acc_calc_time": 4.6854352951049805,
+        "total_time": 216.72651743888855,
+        "partitions": 24
+    },
+    {
+        "read_time": 0.011174440383911133,
+        "repartition_time": 4.840120077133179,
+        "normalize_time": 9.281461715698242,
+        "train_time": 208.6698043346405,
+        "acc_calc_time": 4.865111351013184,
+        "total_time": 227.66767191886902,
+        "partitions": 25
+    },
+    {
+        "read_time": 0.012049674987792969,
+        "repartition_time": 4.7568442821502686,
+        "normalize_time": 9.217439413070679,
+        "train_time": 208.48159861564636,
+        "acc_calc_time": 4.846130132675171,
+        "total_time": 227.31406211853027,
+        "partitions": 26
+    },
+    {
+        "read_time": 0.011889219284057617,
+        "repartition_time": 4.790269374847412,
+        "normalize_time": 9.16422986984253,
+        "train_time": 208.11797761917114,
+        "acc_calc_time": 4.903045654296875,
+        "total_time": 226.98741173744202,
+        "partitions": 27
+    },
+    {
+        "read_time": 0.012223958969116211,
+        "repartition_time": 4.764207124710083,
+        "normalize_time": 9.094591617584229,
+        "train_time": 204.00894856452942,
+        "acc_calc_time": 4.897071599960327,
+        "total_time": 222.77704286575317,
+        "partitions": 28
+    },
+    {
+        "read_time": 0.01431894302368164,
+        "repartition_time": 5.0485405921936035,
+        "normalize_time": 10.233065128326416,
+        "train_time": 207.94754695892334,
+        "acc_calc_time": 4.8685219287872314,
+        "total_time": 228.11199355125427,
+        "partitions": 29
+    },
+    {
+        "read_time": 0.009701013565063477,
+        "repartition_time": 4.911333084106445,
+        "normalize_time": 9.585845708847046,
+        "train_time": 215.67182326316833,
+        "acc_calc_time": 4.970977544784546,
+        "total_time": 235.14968061447144,
+        "partitions": 30
+    },
+    {
+        "read_time": 0.012620687484741211,
+        "repartition_time": 4.9710915088653564,
+        "normalize_time": 9.616156578063965,
+        "train_time": 207.1465904712677,
+        "acc_calc_time": 4.949838399887085,
+        "total_time": 226.69629764556885,
+        "partitions": 31
+    },
+    {
+        "read_time": 0.010392904281616211,
+        "repartition_time": 5.071427583694458,
+        "normalize_time": 9.740530967712402,
+        "train_time": 209.22319293022156,
+        "acc_calc_time": 4.937707901000977,
+        "total_time": 228.983252286911,
+        "partitions": 32
+    }
+]
