@@ -1,5 +1,7 @@
-from pyspark import RDD
 import numpy as np
+from pyspark import RDD
+
+
 # ---------------- FUNCTIONS FOR EXECISE 1 -------
 def readFile(filename: str, sc) -> RDD:
     rdd = sc.textFile(filename)
@@ -9,17 +11,31 @@ def readFile(filename: str, sc) -> RDD:
         .map(lambda x: (x[:-1], int(x[-1])))
     )
 
+
 def normalize(rdd_xy: RDD) -> RDD:
     rdd_X = rdd_xy.map(lambda x: x[0])
-    _ = rdd_xy.map(lambda x: x[1])  # <--- CUIDADO, no se usa, así que habría que borrarlo
+    _ = rdd_xy.map(
+        lambda x: x[1]
+    )  # <--- CUIDADO, no se usa, así que habría que borrarlo
 
-    mu, rows = rdd_X.map(lambda x: (np.array(x), 1)).reduce(lambda x, y: (x[0] + y[0], x[1] + y[1]))
+    mu, rows = rdd_X.map(lambda x: (np.array(x), 1)).reduce(
+        lambda x, y: (x[0] + y[0], x[1] + y[1])
+    )
     mu /= rows
-    std = (rdd_X.map(lambda x: (np.array(x) - mu) ** 2).reduce(lambda x, y: x + y) / rows) ** 0.5
+    std = (
+        rdd_X.map(lambda x: (np.array(x) - mu) ** 2).reduce(lambda x, y: x + y) / rows
+    ) ** 0.5
 
     return rdd_xy.map(lambda x: ((np.array(x[0]) - mu) / std, x[1]))
 
-def train(rdd_xy: RDD, iterations: int, learning_rate: float, lambda_reg: float, show_logs: bool = True) -> tuple[np.ndarray, float]:
+
+def train(
+    rdd_xy: RDD,
+    iterations: int,
+    learning_rate: float,
+    lambda_reg: float,
+    show_logs: bool = True,
+) -> tuple[np.ndarray, float]:
     its_to_print = list(range(0, iterations, iterations // 10)) + [iterations]
     k = len(rdd_xy.first()[0])
     m = rdd_xy.count()
@@ -29,12 +45,16 @@ def train(rdd_xy: RDD, iterations: int, learning_rate: float, lambda_reg: float,
     for it in range(iterations):
         # Gradients
         dw = (
-            rdd_xy.map(lambda x: (predict_proba(w, b, x[0]) - x[1]) * np.array(x[0]))
-            .reduce(lambda x, y: x + y) / m
+            rdd_xy.map(
+                lambda x: (predict_proba(w, b, x[0]) - x[1]) * np.array(x[0])
+            ).reduce(lambda x, y: x + y)
+            / m
         )
         db = (
-            rdd_xy.map(lambda x: predict_proba(w, b, x[0]) - x[1])
-            .reduce(lambda x, y: x + y) / m
+            rdd_xy.map(lambda x: predict_proba(w, b, x[0]) - x[1]).reduce(
+                lambda x, y: x + y
+            )
+            / m
         )
 
         # Regularization
@@ -74,18 +94,20 @@ def accuracy(w: np.ndarray, b: float, rdd_xy: RDD) -> float:
     return preds[0] / preds[1]
 
 
-def cost(w: np.ndarray, b: float, rdd_xy: RDD, lambda_reg: float, k: int, m: int) -> float:
-    return (
-        rdd_xy.map(lambda x: (predict_proba(w, b, x[0]), x[1]))
-        .map(lambda x: (x[1] * np.log(x[0]) + (1 - x[1]) * np.log(1 - x[0])))
-        .reduce(lambda x, y: x + y) / (-m) + lambda_reg * (w**2).sum() / (2 * k)
-    )
+def cost(
+    w: np.ndarray, b: float, rdd_xy: RDD, lambda_reg: float, k: int, m: int
+) -> float:
+    return rdd_xy.map(lambda x: (predict_proba(w, b, x[0]), x[1])).map(
+        lambda x: (x[1] * np.log(x[0]) + (1 - x[1]) * np.log(1 - x[0]))
+    ).reduce(lambda x, y: x + y) / (-m) + lambda_reg * (w**2).sum() / (2 * k)
 
 
 # ------- FUNCTIONS FOR EXERCISE 2 -------
 
+
 def transform(rdd_xy: RDD, blocks: int) -> RDD:
     return rdd_xy.map(lambda x: (x, np.random.randint(0, blocks))).cache()
+
 
 def get_block_data(rdd_blocked: RDD, block_id: int) -> tuple[RDD, RDD]:
     train_rdd = rdd_blocked.flatMap(lambda x: [x[0]] if x[1] != block_id else [])
