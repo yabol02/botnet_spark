@@ -1,0 +1,6 @@
+{
+    "No cache": 29.15901756286621,
+    "Cache in fileread": 29.407894134521484,
+    "Cache in repartition": 29.347391843795776,
+    "Cache in normalize": 27.445940494537354
+}

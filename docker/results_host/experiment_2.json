@@ -1,0 +1,90 @@
+[
+    {
+        "num_workers_partitions": 1,
+        "execution_time": 203.4401707649231
+    },
+    {
+        "num_workers_partitions": 2,
+        "execution_time": 100.83295822143555
+    },
+    {
+        "num_workers_partitions": 3,
+        "execution_time": 69.30383849143982
+    },
+    {
+        "num_workers_partitions": 4,
+        "execution_time": 52.63623094558716
+    },
+    {
+        "num_workers_partitions": 5,
+        "execution_time": 44.0829062461853
+    },
+    {
+        "num_workers_partitions": 6,
+        "execution_time": 42.29956030845642
+    },
+    {
+        "num_workers_partitions": 7,
+        "execution_time": 41.865214586257935
+    },
+    {
+        "num_workers_partitions": 8,
+        "execution_time": 39.653348207473755
+    },
+    {
+        "num_workers_partitions": 9,
+        "execution_time": 36.14474415779114
+    },
+    {
+        "num_workers_partitions": 10,
+        "execution_time": 35.33646488189697
+    },
+    {
+        "num_workers_partitions": 11,
+        "execution_time": 33.15195941925049
+    },
+    {
+        "num_workers_partitions": 12,
+        "execution_time": 32.691622734069824
+    },
+    {
+        "num_workers_partitions": 13,
+        "execution_time": 31.440514087677002
+    },
+    {
+        "num_workers_partitions": 14,
+        "execution_time": 30.924251794815063
+    },
+    {
+        "num_workers_partitions": 15,
+        "execution_time": 30.520637273788452
+    },
+    {
+        "num_workers_partitions": 16,
+        "execution_time": 30.02497410774231
+    },
+    {
+        "num_workers_partitions": 17,
+        "execution_time": 29.53502345085144
+    },
+    {
+        "num_workers_partitions": 18,
+        "execution_time": 29.427050352096558
+    },
+    {
+        "num_workers_partitions": 19,
+        "execution_time": 29.15901756286621
+    },
+    {
+        "num_workers_partitions": 20,
+        "execution_time": 29.68667769432068
+    },
+    {
+        "num_workers_partitions": 21,
+        "execution_time": 30.509947776794434
+    },
+    {
+        "num_workers_partitions": 22,
+        "execution_time": 30.72168231010437
+    }
+]
